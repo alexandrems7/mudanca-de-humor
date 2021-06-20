@@ -1,0 +1,52 @@
+body{
+    background-repeat: no-repeat;
+
+
+
+
+
+
+
+
+
+    background-position: center;
+
+    display:flex;
+    justify-content: center;
+    margin: 0;
+    min-width: calc(100vh-40px);
+    padding: 20px 0;
+}
+
+.bloco_info{
+    display:flexbox;
+}
+.img{
+    width: 290px;
+    border-radius: 50px 50px 50px 50px;
+    box-shadow: 12px 12px 20px rgb(17, 27, 46);
+    width: 250px;
+    height: 200px;
+}
+#bloco_humor{
+    font-size: 30px;
+    font-weight: 900;
+
+}
+
+.botao{ 
+	background-color:#599bb3;
+	border-radius:50px;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 50px;
+	text-shadow:0px 1px 0px #3d768a;    
+
+}
+.nome_humor{
+    text-align: center;
+
+}
